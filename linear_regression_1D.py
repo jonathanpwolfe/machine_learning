@@ -6,10 +6,10 @@ data_file = None
 
 ##fill data into X, Y arrays
 X = []
-Y = []
+Y = [
 for line in open(data_file):
 	x,y = line.split(',')
-	X.append(float(x))
+	X.append(float(x))t
 	Y.append(float(y))
 
 
